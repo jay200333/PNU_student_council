@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>가정교육과</item>
+        <item>간호학과</item>
+        <item>국어교육과</item>
+        <item>체육교육과</item>
+        <item>수학교육과</item>
+        <item>컴퓨터공학과</item>
+        <item>물리학과</item>
+        <item>기계공학과</item>
+        <item>물리치료학과</item>
+        <item>전자공학과</item>
+        <item>음악교육과</item>
+        <item>미술교육과</item>
+        <item>화학공학과</item>
+        <item>무용학과</item>
+        <item>실용음악과</item>
+        <item>행정학과</item>
+    </string-array>
+</resources>

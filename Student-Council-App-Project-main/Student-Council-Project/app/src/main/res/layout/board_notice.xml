@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="무엇이든 물어보세요."
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/question"/>
+
+        <ImageButton
+            android:id="@+id/board_note"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_cancel_24"
+            android:backgroundTint="@color/colorPrimary">
+        </ImageButton>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#ffaabb">
+
+        <TextView
+            android:id="@+id/item_titletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="반갑습니다"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/item_nametext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:drawableStart="@drawable/ic_baseline_trending_flat_24"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="Name"
+            tools:ignore="HardcodedText"
+            android:drawableLeft="@drawable/ic_baseline_trending_flat_24" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
